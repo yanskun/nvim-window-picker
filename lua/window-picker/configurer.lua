@@ -40,15 +40,15 @@ function M._backward_compatibility_config_changes(config)
 	----------------------------------------------------------------------
 	--                        highlight changes                         --
 	----------------------------------------------------------------------
-	if config.current_win_hl_color then
-		-- config.highlights.statusline.focused.bg = config.current_win_hl_color
-		config.highlights.winbar.focused.bg = config.current_win_hl_color
-	end
+	-- if config.current_win_hl_color then
+	-- config.highlights.statusline.focused.bg = config.current_win_hl_color
+	-- config.highlights.winbar.focused.bg = config.current_win_hl_color
+	-- end
 
-	if config.other_win_hl_color then
-		-- config.highlights.statusline.unfocused.bg = config.other_win_hl_color
-		config.highlights.winbar.unfocused.bg = config.other_win_hl_color
-	end
+	-- if config.other_win_hl_color then
+	-- config.highlights.statusline.unfocused.bg = config.other_win_hl_color
+	-- config.highlights.winbar.unfocused.bg = config.other_win_hl_color
+	-- end
 
 	----------------------------------------------------------------------
 	--                     statusline winbar config                     --
